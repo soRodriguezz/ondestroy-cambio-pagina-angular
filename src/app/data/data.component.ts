@@ -33,7 +33,6 @@ export class DataComponent implements OnInit, OnDestroy {
       confirmButtonText: 'SI'
     }).then((result) => {
 
-      console.log(result);
       if (result.isConfirmed) {
 
       } else {
